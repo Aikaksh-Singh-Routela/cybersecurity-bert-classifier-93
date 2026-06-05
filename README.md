@@ -147,12 +147,11 @@ Create real-time API with FastAPI
 
 Add explainability (SHAP/LIME)
 
-🔗 Links
-Hugging Face Model: Aikaksh-Singh-Routela/cybersecurity-bert-model
+## 🔗 Links
 
-Live Demo: Hugging Face Space
-
-GitHub: Aikaksh-Singh-Routela/cybersecurity-alert-classifier
+- **Hugging Face Model**: [Click here](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
+- **Live Demo**: [Click here](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+- **GitHub**: [Click here](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
 
 📄 License
 MIT License
