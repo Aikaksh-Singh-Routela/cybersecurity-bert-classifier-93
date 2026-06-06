@@ -57,6 +57,12 @@ Threat Category Prediction
 
 Try the model instantly on Hugging Face Spaces.
 
+## 🔗 Links
+
+- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
+- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+- [GitHub Repository](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
+
 ## 📦 Installation
 
 ```bash
@@ -143,16 +149,6 @@ Create real-time API with FastAPI
 
 Add explainability (SHAP/LIME)
 
-## 🔗 Links
-
-- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
-- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
-- [GitHub Repository](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
-# Test
-
-This is a test.
-
-[Click me](https://google.com)
 
 📄 License
 MIT License
