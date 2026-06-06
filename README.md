@@ -11,9 +11,9 @@ A **fine-tuned BERT model** that classifies cybersecurity alerts into **5 threat
 
 ## 🔗 Links
 
-- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
-- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
-- https://github.com/Aikaksh-Singh-Routela/cybersecurity-bert-classifier-93
+- **Hugging Face Model**: [View Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
+- **Live Demo**: [Try Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+- **GitHub**: [Source Code](https://github.com/Aikaksh-Singh-Routela/cybersecurity-bert-classifier-93)
 
 ### Key Features
 
