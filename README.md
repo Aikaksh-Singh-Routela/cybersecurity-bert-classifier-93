@@ -145,11 +145,9 @@ Add explainability (SHAP/LIME)
 
 ## 🔗 Links
 
-<https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model>
-
-<https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit>
-
-<https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier>
+- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
+- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+- [GitHub Repository](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
 
 📄 License
 MIT License
