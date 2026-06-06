@@ -7,7 +7,7 @@
 
 ## 📋 Overview
 
-A **fine-tuned BERT model** that classifies cybersecurity security alerts into **5 threat categories** with **92.86% accuracy**.
+A **fine-tuned BERT model** that classifies cybersecurity alerts into **5 threat categories** with **92.86% accuracy**.
 
 ### Key Features
 
@@ -30,6 +30,7 @@ A **fine-tuned BERT model** that classifies cybersecurity security alerts into *
 | **✅ Benign** | Normal activity | "Regular backup completed successfully" |
 
 ## 🏗️ Model Architecture
+
 Security Alert Text
 ↓
 BERT Tokenizer
@@ -41,7 +42,6 @@ Classification Head
 Threat Category Prediction
 (5 Classes)
 
-text
 
 ## 📊 Model Performance
 
@@ -55,9 +55,7 @@ text
 
 ## 🚀 Live Demo
 
-Try the model instantly:
-
-[![Open in Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg)](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+Try the model instantly on Hugging Face Spaces.
 
 ## 📦 Installation
 
@@ -70,13 +68,11 @@ cd cybersecurity-alert-classifier
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # or
-.\venv\Scripts\activate  # Windows
+.\venv\Scripts\Activate.ps1  # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-🔧 Usage
-Quick Start
-python
+
 from transformers import pipeline
 
 # Load the fine-tuned model
@@ -98,11 +94,9 @@ for alert in alerts:
     print(f"Threat Type: {result[0]['label']}")
     print(f"Confidence: {result[0]['score']:.2%}")
     print("-" * 50)
-Run Locally
-bash
+
 python cybersecurity_bert_93percent.py
-📊 Sample Output
-text
+
 Alert: Ransomware detected: Files are being encrypted...
 Threat Type: RANSOMWARE
 Confidence: 94.50%
@@ -115,14 +109,14 @@ Alert: Normal user login from corporate network...
 Threat Type: BENIGN
 Confidence: 96.80%
 --------------------------------------------------
-📁 Project Structure
-text
+
 cybersecurity-alert-classifier/
 ├── cybersecurity_bert_93percent.py   # Training & inference script
 ├── requirements.txt                   # Python dependencies
 ├── model/                             # Saved fine-tuned model
 ├── data/                              # Training dataset
 └── README.md                          # Documentation
+
 🛠️ Tech Stack
 Component	Technology
 Base Model	BERT-base-uncased
@@ -130,12 +124,14 @@ Fine-tuning	Hugging Face Transformers
 Deployment	Hugging Face Spaces
 Interface	Streamlit
 Language	Python 3.11+
+
 📈 Use Cases
 Use Case	Application
 SOC Automation	Auto-classify incoming alerts
 Threat Prioritization	Route critical threats to analysts
 Alert Triage	Reduce false positive noise
 Incident Response	Speed up threat identification
+
 🔄 Future Improvements
 Add more threat categories (Phishing, Malware, etc.)
 
@@ -147,13 +143,15 @@ Create real-time API with FastAPI
 
 Add explainability (SHAP/LIME)
 
-## 🔗 Links
+🔗 Links
+Hugging Face Model: https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model
 
-- **Hugging Face Model**: [Aikaksh-Singh-Routela/cybersecurity-bert-model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
-- **Live Demo**: [cybersecurity-alert-classifier-streamlit](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
-- **GitHub**: [Click here](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
+Live Demo: https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit
+
+GitHub Repository: https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier
 
 📄 License
 MIT License
 
 Built with 🛡️, 🧠, and 🤗 by Aikaksh Singh Routela
+
