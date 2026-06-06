@@ -9,6 +9,12 @@
 
 A **fine-tuned BERT model** that classifies cybersecurity alerts into **5 threat categories** with **92.86% accuracy**.
 
+## 🔗 Links
+
+- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
+- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
+- https://github.com/Aikaksh-Singh-Routela/cybersecurity-bert-classifier-93
+
 ### Key Features
 
 | Feature | Description |
@@ -56,12 +62,6 @@ Threat Category Prediction
 ## 🚀 Live Demo
 
 Try the model instantly on Hugging Face Spaces.
-
-## 🔗 Links
-
-- [Hugging Face Model](https://huggingface.co/Aikaksh-Singh-Routela/cybersecurity-bert-model)
-- [Live Demo](https://huggingface.co/spaces/Aikaksh-Singh-Routela/cybersecurity-alert-classifier-streamlit)
-- [GitHub Repository](https://github.com/Aikaksh-Singh-Routela/cybersecurity-alert-classifier)
 
 ## 📦 Installation
 
